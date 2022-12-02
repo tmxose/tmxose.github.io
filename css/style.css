@@ -1,0 +1,54 @@
+.hidden {
+  display: none;
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-align: center;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px white solid;
+  background-color: transparent;
+  text-align: center;
+  color: aliceblue;
+  font-size: 50px;
+}
+input:focus {
+  outline: none; /* 아웃라인 지우기 */
+  color: white;
+}
+input::placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  text-align: center;
+}
+input::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+span {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: transparent;
+  text-align: center;
+}
+button {
+  margin: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: transparent;
+  text-align: center;
+  font-size: 50px;
+  color: crimson;
+}
+#todo-list {
+  list-style: none;
+}
